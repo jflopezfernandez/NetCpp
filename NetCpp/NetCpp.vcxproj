@@ -84,7 +84,12 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Libs\Boost\boost_1_67_0;C:\Libs\Poco\Poco-1.9.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>C:\Libs\Poco\Poco-1.9.0\lib\Debug;C:\Libs\Boost\boost_1_67_0\stage;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libboost_atomic-vc141-mt-gd-x64-1_67.lib;libboost_chrono-vc141-mt-gd-x64-1_67.lib;libboost_container-vc141-mt-gd-x64-1_67.lib;libboost_context-vc141-mt-gd-x64-1_67.lib;libboost_contract-vc141-mt-gd-x64-1_67.lib;libboost_coroutine-vc141-mt-gd-x64-1_67.lib;libboost_date_time-vc141-mt-gd-x64-1_67.lib;libboost_exception-vc141-mt-gd-x64-1_67.lib;libboost_fiber-vc141-mt-gd-x64-1_67.lib;libboost_filesystem-vc141-mt-gd-x64-1_67.lib;libboost_graph-vc141-mt-gd-x64-1_67.lib;libboost_iostreams-vc141-mt-gd-x64-1_67.lib;libboost_locale-vc141-mt-gd-x64-1_67.lib;libboost_log-vc141-mt-gd-x64-1_67.lib;libboost_log_setup-vc141-mt-gd-x64-1_67.lib;libboost_math_c99-vc141-mt-gd-x64-1_67.lib;libboost_math_c99f-vc141-mt-gd-x64-1_67.lib;libboost_math_c99l-vc141-mt-gd-x64-1_67.lib;libboost_math_tr1-vc141-mt-gd-x64-1_67.lib;libboost_math_tr1f-vc141-mt-gd-x64-1_67.lib;libboost_math_tr1l-vc141-mt-gd-x64-1_67.lib;libboost_numpy36-vc141-mt-gd-x64-1_67.lib;libboost_prg_exec_monitor-vc141-mt-gd-x64-1_67.lib;libboost_program_options-vc141-mt-gd-x64-1_67.lib;libboost_python36-vc141-mt-gd-x64-1_67.lib;libboost_random-vc141-mt-gd-x64-1_67.lib;libboost_regex-vc141-mt-gd-x64-1_67.lib;libboost_serialization-vc141-mt-gd-x64-1_67.lib;libboost_signals-vc141-mt-gd-x64-1_67.lib;libboost_stacktrace_noop-vc141-mt-gd-x64-1_67.lib;libboost_stacktrace_windbg-vc141-mt-gd-x64-1_67.lib;libboost_stacktrace_windbg_cached-vc141-mt-gd-x64-1_67.lib;libboost_system-vc141-mt-gd-x64-1_67.lib;libboost_test_exec_monitor-vc141-mt-gd-x64-1_67.lib;libboost_thread-vc141-mt-gd-x64-1_67.lib;libboost_timer-vc141-mt-gd-x64-1_67.lib;libboost_type_erasure-vc141-mt-gd-x64-1_67.lib;libboost_unit_test_framework-vc141-mt-gd-x64-1_67.lib;libboost_wave-vc141-mt-gd-x64-1_67.lib;PocoCryptod.lib;PocoDatad.lib;PocoDataODBCd.lib;PocoDataSQLited.lib;PocoEncodingsd.lib;PocoFoundationd.lib;PocoJSONd.lib;PocoMongoDBd.lib;PocoNetd.lib;PocoNetSSLd.lib;PocoRedisd.lib;PocoUtild.lib;PocoXMLd.lib;PocoZipd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
@@ -108,10 +113,13 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Libs\Boost\boost_1_67_0;C:\Libs\Poco\Poco-1.9.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>C:\Libs\Poco\Poco-1.9.0\lib\Release;C:\Libs\Boost\boost_1_67_0\stage;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libboost_atomic-vc141-mt-x64-1_67.lib;libboost_chrono-vc141-mt-x64-1_67.lib;libboost_container-vc141-mt-x64-1_67.lib;libboost_context-vc141-mt-x64-1_67.lib;libboost_contract-vc141-mt-x64-1_67.lib;libboost_coroutine-vc141-mt-x64-1_67.lib;libboost_date_time-vc141-mt-x64-1_67.lib;libboost_exception-vc141-mt-x64-1_67.lib;libboost_fiber-vc141-mt-x64-1_67.lib;libboost_filesystem-vc141-mt-x64-1_67.lib;libboost_graph-vc141-mt-x64-1_67.lib;libboost_iostreams-vc141-mt-x64-1_67.lib;libboost_locale-vc141-mt-x64-1_67.lib;libboost_log-vc141-mt-x64-1_67.lib;libboost_log_setup-vc141-mt-x64-1_67.lib;libboost_math_c99-vc141-mt-x64-1_67.lib;libboost_math_c99f-vc141-mt-x64-1_67.lib;libboost_math_c99l-vc141-mt-x64-1_67.lib;libboost_math_tr1-vc141-mt-x64-1_67.lib;libboost_math_tr1f-vc141-mt-x64-1_67.lib;libboost_math_tr1l-vc141-mt-x64-1_67.lib;libboost_numpy36-vc141-mt-x64-1_67.lib;libboost_prg_exec_monitor-vc141-mt-x64-1_67.lib;libboost_program_options-vc141-mt-x64-1_67.lib;libboost_python36-vc141-mt-x64-1_67.lib;libboost_random-vc141-mt-x64-1_67.lib;libboost_regex-vc141-mt-x64-1_67.lib;libboost_serialization-vc141-mt-x64-1_67.lib;libboost_signals-vc141-mt-x64-1_67.lib;libboost_stacktrace_noop-vc141-mt-x64-1_67.lib;libboost_stacktrace_windbg-vc141-mt-x64-1_67.lib;libboost_stacktrace_windbg_cached-vc141-mt-x64-1_67.lib;libboost_system-vc141-mt-x64-1_67.lib;libboost_test_exec_monitor-vc141-mt-x64-1_67.lib;libboost_thread-vc141-mt-x64-1_67.lib;libboost_timer-vc141-mt-x64-1_67.lib;libboost_type_erasure-vc141-mt-x64-1_67.lib;libboost_unit_test_framework-vc141-mt-x64-1_67.lib;libboost_wave-vc141-mt-x64-1_67.lib;PocoCrypto.lib;PocoData.lib;PocoDataODBC.lib;PocoDataSQLite.lib;PocoEncodings.lib;PocoFoundation.lib;PocoJSON.lib;PocoMongoDB.lib;PocoNet.lib;PocoNetSSL.lib;PocoRedis.lib;PocoUtil.lib;PocoXML.lib;PocoZip.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
